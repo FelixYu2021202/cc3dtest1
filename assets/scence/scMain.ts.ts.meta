@@ -1,0 +1,14 @@
+{
+  "ver": "1.0.844",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "5eac36a5-7a12-4aaa-b2a7-d308328c2ef8",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scence/scMain.ts.ts",
+    "importAsPlugin": false
+  }
+}
