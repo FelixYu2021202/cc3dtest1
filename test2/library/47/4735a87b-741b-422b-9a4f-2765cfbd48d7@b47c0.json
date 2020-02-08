@@ -1,0 +1,16 @@
+{
+  "__type__": "cc.TextureCube",
+  "content": {
+    "base": "2,2,0,0,0,2,1,0",
+    "mipmaps": [
+      {
+        "front": "4735a87b-741b-422b-9a4f-2765cfbd48d7@b47c0@e9a6d",
+        "back": "4735a87b-741b-422b-9a4f-2765cfbd48d7@b47c0@40c10",
+        "left": "4735a87b-741b-422b-9a4f-2765cfbd48d7@b47c0@8fd34",
+        "right": "4735a87b-741b-422b-9a4f-2765cfbd48d7@b47c0@74afd",
+        "top": "4735a87b-741b-422b-9a4f-2765cfbd48d7@b47c0@bb97f",
+        "bottom": "4735a87b-741b-422b-9a4f-2765cfbd48d7@b47c0@7d38f"
+      }
+    ]
+  }
+}
