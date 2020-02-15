@@ -1,0 +1,6 @@
+.{
+.=ttc : texture cube,
+.=l : lights,
+.=pst : particle system,
+.=a : animations,
+}

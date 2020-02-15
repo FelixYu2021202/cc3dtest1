@@ -1,0 +1,14 @@
+{
+  "ver": "1.0.844",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "ae0f8070-c897-405f-910f-c8e71f76fccd",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/glubals/gg.ts",
+    "importAsPlugin": false
+  }
+}
