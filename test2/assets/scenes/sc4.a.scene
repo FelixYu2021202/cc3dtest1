@@ -23,6 +23,9 @@
       },
       {
         "__id__": 6
+      },
+      {
+        "__id__": 9
       }
     ],
     "_active": true,
@@ -30,7 +33,7 @@
     "_prefab": null,
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 10
+      "__id__": 18
     },
     "_id": "f46876e4-e81b-4931-b493-6d367be385e7"
   },
@@ -184,16 +187,13 @@
       "__id__": 1
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 7
       },
       {
         "__id__": 8
-      },
-      {
-        "__id__": 9
       }
     ],
     "_prefab": null,
@@ -248,19 +248,6 @@
     "_id": "37nc0CaY9GMoxMnurO6NIP"
   },
   {
-    "__type__": "e4779iqwtVCsqjYf5Ct+xMr",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 6
-    },
-    "_enabled": true,
-    "ac1": {
-      "__id__": 9
-    },
-    "_id": "34rjxDh1hPBb9LQ8hei5kF"
-  },
-  {
     "__type__": "cc.AnimationComponent",
     "_name": "",
     "_objFlags": 0,
@@ -280,23 +267,257 @@
     "_id": "7bvNiBfN9GEJsWUGgAhunu"
   },
   {
-    "__type__": "cc.SceneGlobals",
-    "ambient": {
+    "__type__": "cc.Node",
+    "_name": "pymamid",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [
+      {
+        "__id__": 10
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 15
+      }
+    ],
+    "_prefab": {
+      "__id__": 17
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "0avp3w9tdJkagCMMnpHA1V"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "root",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 9
+    },
+    "_children": [
+      {
+        "__id__": 11
+      }
+    ],
+    "_active": true,
+    "_components": [],
+    "_prefab": {
+      "__id__": 14
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "2d7CPD01NFA57yh+Rs75ia"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "(__autogen 0)",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 10
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 12
+      }
+    ],
+    "_prefab": {
+      "__id__": 13
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0.3879956305027008,
+      "y": -0.36675918102264404,
+      "z": -0.00039308168925344944
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 0.001,
+      "y": 0.001,
+      "z": 0.0010000000474974513
+    },
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "f75A8COXBCA71zjtNZDr2/"
+  },
+  {
+    "__type__": "cc.ModelComponent",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
       "__id__": 11
     },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "6171a8d1-64bf-4e3b-a3c5-a6030a790e34@0fa4f"
+      }
+    ],
+    "_visFlags": 0,
+    "_enableDynamicBatching": false,
+    "_mesh": {
+      "__uuid__": "6171a8d1-64bf-4e3b-a3c5-a6030a790e34@cf369"
+    },
+    "_shadowCastingMode": 0,
+    "_receiveShadows": false,
+    "_id": "55H3kJrd9CNLE+9UbqKGk+"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 9
+    },
+    "asset": {
+      "__uuid__": "6171a8d1-64bf-4e3b-a3c5-a6030a790e34@4b09d"
+    },
+    "fileId": "9eELw6pKdAnrzasFB7alCN",
+    "sync": false,
+    "_synced": {
+      "default": false,
+      "serializable": false
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 9
+    },
+    "asset": {
+      "__uuid__": "6171a8d1-64bf-4e3b-a3c5-a6030a790e34@4b09d"
+    },
+    "fileId": "73Pe9HWdRF4Ylugcxwdmr8",
+    "sync": false,
+    "_synced": {
+      "default": false,
+      "serializable": false
+    }
+  },
+  {
+    "__type__": "cc.SkeletalAnimationComponent",
+    "_name": "pymamid<SkeletalAnimationComponent>",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 9
+    },
+    "_enabled": true,
+    "playOnLoad": false,
+    "_clips": [
+      {
+        "__uuid__": "6cba8fc1-108b-4383-9f37-427216dc1e4c"
+      }
+    ],
+    "_defaultClip": {
+      "__uuid__": "6cba8fc1-108b-4383-9f37-427216dc1e4c"
+    },
+    "_sockets": [
+      {
+        "__id__": 16
+      }
+    ],
+    "_id": "1bKhgDGOJC0otVDKp3tQqO"
+  },
+  {
+    "__type__": "cc.SkeletalAnimationComponent.Socket",
+    "path": "default animation clip missing/invalid",
+    "target": {
+      "__id__": 11
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 9
+    },
+    "asset": {
+      "__uuid__": "6171a8d1-64bf-4e3b-a3c5-a6030a790e34@4b09d"
+    },
+    "fileId": "0eo8xSpphN8KgodqPyg8Yt",
+    "sync": false,
+    "_synced": {}
+  },
+  {
+    "__type__": "cc.SceneGlobals",
+    "ambient": {
+      "__id__": 19
+    },
     "skybox": {
-      "__id__": 12
+      "__id__": 20
     },
     "planarShadows": {
-      "__id__": 13
+      "__id__": 21
     }
   },
   {
     "__type__": "cc.AmbientInfo",
     "_skyColor": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 128,
+      "r": 255,
+      "g": 255,
       "b": 255,
       "a": 1
     },
@@ -311,9 +532,11 @@
   },
   {
     "__type__": "cc.SkyboxInfo",
-    "_envmap": null,
-    "_isRGBE": false,
-    "_enabled": false,
+    "_envmap": {
+      "__uuid__": "7f9b4768-3295-49d7-8005-f4a0c2f9ace5"
+    },
+    "_isRGBE": true,
+    "_enabled": true,
     "_useIBL": false
   },
   {
