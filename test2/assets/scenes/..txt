@@ -3,4 +3,5 @@
 .=l : lights,
 .=pst : particle system,
 .=a : animations,
+.=rc : ray cast
 }
